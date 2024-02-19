@@ -4,19 +4,10 @@
     background-color: #15181f;
     width: 100%;
     color: whitesmoke;
-    margin-left: 40%;
-    margin-top: 15%;
+    margin-left: 45%;
+    margin-top: 10%;
   }
-  @media screen and (max-width: 425px) {
-    .App {
-      font-family: sans-serif;
-      background-color: #15181f;
-      width: 100%;
-      color: whitesmoke;
-      margin-left: 10%;
-      margin-top: 30%;
-    }
-  }
+
   .App marquee {
     margin: 0;
     padding: 0;
@@ -33,11 +24,73 @@
 
   .otpInput {
     border: 0.5px solid grey;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     margin-left: 10px;
     text-align: center;
+    font-size: 2rem;
+    background-color: #15181f;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .EnterOtp p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .EnterNumberContainer {
+    font-family: sans-serif;
+    color: whitesmoke;
+  }
+  .EnterNumberContainer input {
+    width: 400px;
+    height: 60px;
+    margin: 10px 0;
+  }
+  .EnterNumberContainer input::placeholder {
+    font-size: 1.4rem;
+    padding-inline-start: 5px;
+  }
+  .EnterNumberContainer button {
+    width: 200px;
     font-size: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 425px) {
+  .App {
+    font-family: sans-serif;
+    background-color: #15181f;
+    width: 100%;
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-top: 40%;
+    min-width: 404px;
+  }
+  .EnterNumberContainer button {
+    width: 100px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(44, 119, 145);
+  }
+  .EnterNumberContainer input::placeholder {
+    font-size: 0.9rem;
+    padding-inline-start: 5px;
+  }
+  .otpInput {
+    border: 0.5px solid grey;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.2rem;
     background-color: #15181f;
     border-radius: 5px;
     color: whitesmoke;
@@ -48,24 +101,179 @@
     text-align: left;
     margin-left: 10px;
   }
-
-  .EnterNumberContainer {
-    font-family: sans-serif;
-    color: whitesmoke;
-  }
   .EnterNumberContainer input {
-    width: 300px;
+    width: 200px;
     height: 30px;
     margin: 10px 0;
   }
-  .EnterNumberContainer input::placeholder {
-    font-size: 0.8rem;
-    padding-inline-start: 5px;
+
+  .EnterOtp p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .App {
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+  .EnterNumberContainer input {
+    width: 290px;
+    height: 40px;
+    margin: 10px 0;
   }
   .EnterNumberContainer button {
-    width: 100px;
+    width: 200px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(44, 119, 145);
+  }
+  .otpInput {
+    border: 0.5px solid grey;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #15181f;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .EnterOtp p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+/* mid size screen */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .App {
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+  .EnterNumberContainer input {
+    width: 290px;
+    height: 40px;
+    margin: 10px 0;
+  }
+  .EnterNumberContainer button {
+    width: 200px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(44, 119, 145);
+  }
+  .otpInput {
+    border: 0.5px solid grey;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #15181f;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .EnterOtp p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+
+/*  15inch screen */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .App {
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  .otpInput {
+    border: 0.5px solid grey;
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #15181f;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .EnterNumberContainer input {
+    width: 290px;
+    height: 40px;
+    margin: 10px 0;
+  }
+  .EnterNumberContainer button {
+    width: 200px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(44, 119, 145);
+  }
+  .EnterOtp p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+/* display/ monitor screen */
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .App {
+    margin-left: 30%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    background-color: #15181f;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2.3rem;
+  }
+  .otpInput {
+    border: 0.5px solid grey;
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #15181f;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+
+  .EnterNumberContainer input {
+    width: 600px;
+    height: 60px;
+    margin: 10px 0;
+    font-size: 2rem;
+  }
+  .EnterNumberContainer input::placeholder {
+    font-size: 2.3rem;
+    padding-inline-start: 15px;
+  }
+  .EnterNumberContainer button {
+    width: 200px;
     font-size: 1rem;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 5px;
     background-color: lightblue;
+  }
+  .EnterOtp p {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px;
+  }
+  #BackButton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    cursor: pointer;
+    font-size: 0.5em;
+    margin: 10px;
   }
 }
