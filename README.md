@@ -1,2 +1,3 @@
 # Hotstar
-OTP functionality created with react hooks.
+
+Login OTP functionality created with react hooks.
