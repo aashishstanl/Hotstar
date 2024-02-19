@@ -1,30 +1,29 @@
 .App {
   font-family: sans-serif;
   background-color: #15181f;
-  width: fit-content;
+  width: 100%;
   color: whitesmoke;
-  margin: 15% 30%;
-  /* border: 1px solid grey; */
+  margin-left: 40%;
+  margin-top: 10%;
 }
 .App marquee {
   margin: 0;
   padding: 0;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 
 #BackButton {
   font-family: Arial, Helvetica, sans-serif;
-
   color: silver;
   cursor: pointer;
-  font-size: 0.4rem;
+  font-size: 0.8em;
   margin: 10px;
 }
 
 .otpInput {
   border: 0.5px solid grey;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 
   margin-left: 10px;
   text-align: center;
@@ -34,7 +33,7 @@
   color: whitesmoke;
 }
 .EnterOtp p {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   margin-left: 10px;
@@ -43,14 +42,14 @@
 .EnterNumberContainer {
   font-family: sans-serif;
   color: whitesmoke;
-  margin: 15% 30%;
 }
 .EnterNumberContainer input::placeholder {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   padding-inline-start: 5px;
 }
 .EnterNumberContainer button {
   width: 100px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   padding: 5px;
+  background-color: lightblue;
 }
