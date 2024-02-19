@@ -7,6 +7,16 @@
     margin-left: 40%;
     margin-top: 15%;
   }
+  @media screen and (max-width: 425px) {
+    .App {
+      font-family: sans-serif;
+      background-color: #15181f;
+      width: 100%;
+      color: whitesmoke;
+      margin-left: 10%;
+      margin-top: 30%;
+    }
+  }
   .App marquee {
     margin: 0;
     padding: 0;
