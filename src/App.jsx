@@ -9,13 +9,13 @@ function App() {
   };
   // Hide the welcome message on page load and show it after a delay of 1
   useEffect(() => {
-    setTimeout(hideMarquee, 10000);
+    setTimeout(hideMarquee, 20000);
   }, []);
 
   return (
     <>
       <div className="App">
-        <marquee behavior="" direction="right">
+        <marquee className="marquee" behavior="" direction="left">
           you may click submit without number
         </marquee>
 
